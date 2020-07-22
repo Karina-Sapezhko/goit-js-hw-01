@@ -83,16 +83,13 @@
 
 // ------------------------------------#5-----------------------
 
-// let nameOne = "spam";
-// let nameTwo = "sale";
+// const nameOne = "spam";
+// const nameTwo = "sale";
 // const checkForSpam = function (message) {
-//   const arr = message.toLowerCase().split(" ");
-//   for (const element of arr) {
-//     if (element === nameOne || element === nameTwo) {
-//       return true;
-//     }
-//   }
-//   return false;
+//   return (
+//     message.toLowerCase().includes(nameOne) ||
+//     message.toLowerCase().includes(nameTwo)
+//   );
 // };
 
 // console.log(checkForSpam("Latest technology news")); // false
