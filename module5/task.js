@@ -57,8 +57,8 @@
 // ------------------------------------------------------#3---------------------------------------
 
 // class Storage {
-//   constructor(obj) {
-//     this.items = obj;
+//   constructor(items) {
+//     this.items = items;
 //   }
 
 //   getItems() {
